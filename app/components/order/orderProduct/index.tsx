@@ -132,7 +132,7 @@ const OrderProductData: React.FC<OrderItem> = ({ data }) => {
           ${data.price * data.quantity}
         </GridItem>
       </Grid>
-      <Box width="100%" height="1.5px" bg="gray.300" px={4} mb={4}></Box>
+      <Box width="100%" height="1.5px" bg="gray.300" px={4} mb={4} display={{ base: "none", md: "block" }}></Box>
     </>
   );
 };
