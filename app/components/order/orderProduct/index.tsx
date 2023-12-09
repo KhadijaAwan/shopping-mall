@@ -60,14 +60,14 @@ const OrderProductData: React.FC<OrderItem> = ({ data }) => {
           </HStack>
 
           <HStack fontSize="13px" mb={2}>
-            <Text color="gray.100" mr={3}>
+            <Text color="gray.100" mr={6}>
               Quantity
             </Text>
-            <Text color="gray.200">${data.quantity}</Text>
+            <Text color="gray.200">{data.quantity}</Text>
           </HStack>
 
           <HStack fontSize="13px" mb={4}>
-            <Text color="gray.100" mr={10}>
+            <Text color="gray.100" mr={12}>
               Total
             </Text>
             <Text color="gray.200">${data.price * data.quantity}</Text>
